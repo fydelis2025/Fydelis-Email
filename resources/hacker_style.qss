@@ -1,0 +1,30 @@
+QWidget {
+    background-color: #050806;
+    color: #33ff66;
+    font-family: "Consolas", "Fira Code", "Courier New";
+    font-size: 11pt;
+}
+
+QTextEdit, QLineEdit {
+    background-color: #0a0f0c;
+    border: 1px solid #1a5c2e;
+    padding: 6px;
+    selection-background-color: #1a5c2e;
+}
+
+QPushButton {
+    background-color: #0f2b1a;
+    border: 1px solid #33ff66;
+    padding: 8px;
+    min-width: 100px;
+}
+
+QPushButton:hover {
+    background-color: #1a4d2e;
+    border: 1px solid #66ff99;
+}
+
+QStatusBar {
+    background-color: #0a0a0a;
+    color: #88cc99;
+}
